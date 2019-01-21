@@ -4,7 +4,6 @@ links['githubPages'] = [
     'GameOfThrones',
     'slideshow',
     'notenliste',
-    'schollsebastian.github.io',
     'kurs'
 ]
 
