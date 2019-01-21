@@ -4,7 +4,8 @@ links['githubPages'] = [
     'GameOfThrones',
     'slideshow',
     'notenliste',
-    'kurs'
+    'kurs',
+    'Browsergame'
 ]
 
 links['repositories'] = [
@@ -18,5 +19,13 @@ links['repositories'] = [
     'CodeDecode',
     'slideshow',
     'BastiBall',
-    'BastiBot'
+    'BastiBot',
+    'Hangman',
+    'Browsergame',
+    'MailAddresses',
+    'FileDecompression',
+    'Squares',
+    'Rectangles',
+    'FileSystemBasics',
+    'Crypto'
 ]
