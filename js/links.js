@@ -1,4 +1,4 @@
-let links = new Array();
+let links = [];
 
 links['githubPages'] = [
     'GameOfThrones',
