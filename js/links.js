@@ -27,5 +27,6 @@ links['repositories'] = [
     'Squares',
     'Rectangles',
     'FileSystemBasics',
-    'Crypto'
+    'Crypto',
+    'Image'
 ]
