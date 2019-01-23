@@ -5,29 +5,45 @@ function addElements() {
     githubPages.sort();
     repositories.sort();
 
-    for (let i in githubPages) {
-        let anchor = document.createElement('a');
+    for (let githubPage of githubPages) {
+        let a = document.createElement('a');
         let div = document.createElement('div');
 
-        div.textContent = githubPages[i];
+        div.textContent = githubPage;
 
-        anchor.href = 'https://schollsebastian.github.io/' + githubPages[i] + '/';
-        anchor.target = '_blank';
-        anchor.appendChild(div);
+        a.href = 'https://schollsebastian.github.io/' + githubPage + '/';
+        a.target = '_blank';
+        a.appendChild(div);
 
-        document.getElementById('github-pages').appendChild(anchor);
+        document.getElementById('github-pages').appendChild(a);
     }
 
-    for (let i in repositories) {
-        let anchor = document.createElement('a');
+    for (let repository of repositories) {
+        let tr = document.createElement('tr');
+        let td1 = document.createElement('td');
+        let td2 = document.createElement('td');
         let div = document.createElement('div');
+        let a = document.createElement('a');
+        let form = document.createElement('form');
+        let input = document.createElement('input');
 
-        div.textContent = repositories[i];
+        div.textContent = repository;
 
-        anchor.href = 'https://github.com/schollsebastian/' + repositories[i];
-        anchor.target = '_blank';
-        anchor.appendChild(div);
+        a.href = 'https://github.com/schollsebastian/' + repository;
+        a.target = '_blank';
+        a.appendChild(div);
 
-        document.getElementById('repositories').appendChild(anchor);
+        input.type = 'text';
+        input.value = 'https://github.com/schollsebastian/' + repository + '.git';
+
+        form.appendChild(input);
+
+        td1.appendChild(a);
+        td2.appendChild(form);
+
+        tr.appendChild(td1);
+        tr.appendChild(td2);
+
+        document.getElementById('table').appendChild(tr);
     }
 }
