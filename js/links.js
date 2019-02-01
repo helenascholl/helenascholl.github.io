@@ -31,5 +31,6 @@ links['repositories'] = [
     'Image',
     'IntroductionRound',
     'CarArray',
-    'Formularueberpruefung'
+    'Formularueberpruefung',
+    'Prototype'
 ]
