@@ -28,5 +28,6 @@ links['repositories'] = [
     'Rectangles',
     'FileSystemBasics',
     'Crypto',
-    'Image'
+    'Image',
+    'IntroductionRound'
 ]
