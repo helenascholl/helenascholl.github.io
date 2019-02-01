@@ -29,5 +29,6 @@ links['repositories'] = [
     'FileSystemBasics',
     'Crypto',
     'Image',
-    'IntroductionRound'
+    'IntroductionRound',
+    'CarArray'
 ]
