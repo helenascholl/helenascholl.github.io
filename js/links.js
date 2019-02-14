@@ -38,6 +38,6 @@ links['repositories'] = [
 links['cooperations'] = [
     {
         name: 'starkalukas',
-        link: 'starkalukas.github.io'
+        link: 'https://starkalukas.github.io'
     }
 ]
