@@ -34,3 +34,7 @@ links['repositories'] = [
     'Formularueberpruefung',
     'Prototype'
 ]
+
+links['cooperations'] = [
+    'starkalukas.github.io'   
+]
