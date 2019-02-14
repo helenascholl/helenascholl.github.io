@@ -32,7 +32,7 @@ links['repositories'] = [
     'IntroductionRound',
     'CarArray',
     'Formularueberpruefung',
-    'Prototype'
+    'Prototypes'
 ]
 
 links['cooperations'] = [
