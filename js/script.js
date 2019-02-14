@@ -1,9 +1,11 @@
 function addElements() {
     let githubPages = links['githubPages'];
     let repositories = links['repositories'];
+    let cooperations = links['cooperations'];
 
     githubPages.sort();
     repositories.sort();
+    cooperations.sort();
 
     for (let githubPage of githubPages) {
         let a = document.createElement('a');
@@ -45,5 +47,18 @@ function addElements() {
         tr.appendChild(td2);
 
         document.getElementById('table').appendChild(tr);
+    }
+    
+    for (let cooperation of cooperations) {
+        let a = document.createElement('a');
+        let div = document.createElement('div');
+
+        div.textContent = cooperation.name;
+
+        a.href = cooperation.link;
+        a.target = '_blank';
+        a.appendChild(div);
+
+        document.getElementById('cooperations').appendChild(a);
     }
 }
