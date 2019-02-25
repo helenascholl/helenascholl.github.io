@@ -5,7 +5,6 @@ function addElements() {
 
     githubPages.sort();
     repositories.sort();
-    cooperations.sort();
 
     for (let githubPage of githubPages) {
         let a = document.createElement('a');
