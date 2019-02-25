@@ -1,4 +1,4 @@
-function addElements() {
+window.addEventListener('load', () => {
     let githubPages = links['githubPages'];
     let repositories = links['repositories'];
     let cooperations = links['cooperations'];
@@ -12,7 +12,7 @@ function addElements() {
 
         div.textContent = githubPage;
 
-        a.href = 'https://schollsebastian.github.io/' + githubPage + '/';
+        a.href = `https://schollsebastian.github.io/${githubPage}/`;
         a.target = '_blank';
         a.appendChild(div);
 
@@ -30,12 +30,12 @@ function addElements() {
 
         div.textContent = repository;
 
-        a.href = 'https://github.com/schollsebastian/' + repository;
+        a.href = `https://github.com/schollsebastian/${repository}`;
         a.target = '_blank';
         a.appendChild(div);
 
         input.type = 'text';
-        input.value = 'https://github.com/schollsebastian/' + repository + '.git';
+        input.value = `https://github.com/schollsebastian/${repository}.git`;
 
         form.appendChild(input);
 
