@@ -6,7 +6,7 @@ links['githubPages'] = [
     'notenliste',
     'kurs',
     'Browsergame',
-    'Formularueberpruefung'
+    'FormVerification'
 ]
 
 links['repositories'] = [
@@ -32,7 +32,7 @@ links['repositories'] = [
     'Image',
     'IntroductionRound',
     'CarArray',
-    'Formularueberpruefung',
+    'FormVerification',
     'Prototypes'
 ]
 
