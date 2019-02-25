@@ -60,4 +60,4 @@ window.addEventListener('load', () => {
 
         document.getElementById('cooperations').appendChild(a);
     }
-}
+});
