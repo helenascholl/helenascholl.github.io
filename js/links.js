@@ -5,7 +5,8 @@ links['githubPages'] = [
     'slideshow',
     'notenliste',
     'kurs',
-    'Browsergame'
+    'Browsergame',
+    'Formularueberpruefung'
 ]
 
 links['repositories'] = [
@@ -39,5 +40,9 @@ links['cooperations'] = [
     {
         name: 'starkalukas',
         link: 'https://starkalukas.github.io'
+    },
+    {
+        name: 'PhilippEdlinger',
+        link: 'https://philippedlinger.github.io'
     }
 ]
