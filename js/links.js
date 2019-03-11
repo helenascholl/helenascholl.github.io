@@ -10,6 +10,34 @@ links['githubPages'] = [
     'ImageManipulation'
 ]
 
+links['repositories'] = [
+    'schollsebastian.github.io',
+    'notenliste',
+    'kurs',
+    'Fizz-Buzz',
+    'Dame',
+    'Instanzenzaehler',
+    'GameOfThrones',
+    'CodeDecode',
+    'slideshow',
+    'BastiBall',
+    'BastiBot',
+    'Hangman',
+    'Browsergame',
+    'MailAddresses',
+    'FileDecompression',
+    'Squares',
+    'Rectangles',
+    'FileSystemBasics',
+    'Crypto',
+    'Image',
+    'IntroductionRound',
+    'CarArray',
+    'FormVerification',
+    'Prototypes',
+    'ImageManipulation'
+]
+
 links['cooperations'] = [
     {
         name: 'starkalukas',
