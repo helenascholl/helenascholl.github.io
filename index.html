@@ -5,6 +5,13 @@
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./css/style_index.css">
         <link rel="icon" href="./img/icon_index.png" sizes="50x50" type="image/png">
+        <script src="./js/links.js"></script>
+        <script src="./js/script.js"></script>
+        <script>
+        {% for repository in site.github.public_repositories %}
+            addRepository('{{ repository.name }}');
+        {% endfor %}
+        </script>
     </head>
     <body>
         <a href="https://github.com/schollsebastian">
@@ -21,8 +28,5 @@
         <div id="cooperations">
             <h2>Cooperations</h2>
         </div>
-
-        <script src="./js/links.js"></script>
-        <script src="./js/script.js"></script>
     </body>
 </html>
