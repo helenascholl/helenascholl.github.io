@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sebastian Scholl</title>
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/style_index.css">
+        <link rel="icon" href="./img/icon_index.png" sizes="50x50" type="image/png">
+        <script src="./js/links.js"></script>
+        <script src="./js/script.js"></script>
+        <script>
+        {% for repository in site.github.public_repositories %}
+            addRepository('{{ repository.name }}');
+        {% endfor %}
+        </script>
+    </head>
+    <body>
+        <a href="https://github.com/schollsebastian">
+            <h1>Sebastian Scholl</h1>
+        </a>
+
+        <div id="github-pages">
+            <h2>GitHub Pages</h2>
+        </div>
+        <div>
+            <h2>Repositories</h2>
+            <table id="table"></table>
+        </div>
+        <div id="cooperations">
+            <h2>Cooperations</h2>
+        </div>
+    </body>
+</html>
