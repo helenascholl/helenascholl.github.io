@@ -35,7 +35,8 @@ links['repositories'] = [
     'CarArray',
     'FormVerification',
     'Prototypes',
-    'ImageManipulation'
+    'ImageManipulation',
+    'HTTP-Server'
 ]
 
 links['cooperations'] = [
