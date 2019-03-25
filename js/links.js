@@ -36,7 +36,8 @@ links['repositories'] = [
     'FormVerification',
     'Prototypes',
     'ImageManipulation',
-    'HTTP-Server'
+    'HTTP-Server',
+    'Movies'
 ]
 
 links['cooperations'] = [
