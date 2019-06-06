@@ -38,7 +38,7 @@ links['repositories'] = [
     'Prototypes',
     'photostudio',
     'HTTP-Server',
-    'Movies'
+    'Movies',
     'Markdown-Editor'
 ]
 
