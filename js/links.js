@@ -8,7 +8,8 @@ links['githubPages'] = [
     'Browsergame',
     'FormVerification',
     'photostudio',
-    'Markdown-Editor'
+    'Markdown-Editor',
+    'TicTacToe'
 ]
 
 links['repositories'] = [
@@ -39,7 +40,8 @@ links['repositories'] = [
     'photostudio',
     'HTTP-Server',
     'Movies',
-    'Markdown-Editor'
+    'Markdown-Editor',
+    'TicTacToe'
 ]
 
 links['cooperations'] = [
