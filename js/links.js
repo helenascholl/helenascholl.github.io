@@ -9,7 +9,8 @@ links['githubPages'] = [
     'FormVerification',
     'photostudio',
     'Markdown-Editor',
-    'TicTacToe'
+    'TicTacToe',
+    'Calendar'
 ]
 
 links['repositories'] = [
@@ -41,7 +42,8 @@ links['repositories'] = [
     'HTTP-Server',
     'Movies',
     'Markdown-Editor',
-    'TicTacToe'
+    'TicTacToe',
+    'Calendar'
 ]
 
 links['cooperations'] = [
