@@ -1,7 +1,7 @@
 let repositories = [];
 
 addEventListener('load', () => {
-    xmlHttpRequest('GET', 'https://api.github.com/users/schollsebastian/repos?sort=created', handleResponse)
+    xmlHttpRequest('GET', 'https://api.github.com/users/schollsebastian/repos', handleResponse)
 });
 
 function showRepositories() {
