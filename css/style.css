@@ -1,0 +1,68 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    padding: 3vmin;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 4vmin;
+}
+
+a {
+    color: black;
+    text-decoration-color: black;
+}
+
+div {
+    border-bottom: 1px solid black;
+    margin-bottom: 3vmin;
+    padding-bottom: 3vmin;
+}
+
+div:last-of-type {
+    border: none;
+}
+
+h2 {
+    font-size: 2.5vmin;
+    margin: 0;
+}
+
+input {
+    width: 30vw;
+    border: 1px solid black;
+    font-size: 1.5vmin;
+    box-sizing: border-box;
+}
+
+button {
+    width: 8vmin;
+    height: 2.5vmin;
+    font-size: 1.5vmin;
+    border: 1px solid darkgray;
+    background-color: lightgray;
+    cursor: pointer;
+    margin-left: 1vw;
+}
+
+.pagesUrl {
+    font-size: 1.5vmin;
+    border: 1px solid darkgray;
+    background-color: lightgray;
+    margin-left: 1vw;
+    padding: 0 1.5vmin;
+    float: right;
+}
+
+.pagesUrl:hover {
+    text-decoration: none;
+}
+
+div a {
+    text-decoration: none;
+}
+
+div a:hover {
+    text-decoration: underline;
+}
