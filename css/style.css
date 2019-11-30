@@ -1,6 +1,7 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     padding: 3vmin;
+    margin: 0;
 }
 
 h1 {
@@ -14,14 +15,16 @@ a {
     text-decoration-color: black;
 }
 
-div {
+div div {
     border-bottom: 1px solid black;
     margin-bottom: 3vmin;
     padding-bottom: 3vmin;
 }
 
-div:last-of-type {
+div div:last-of-type {
     border: none;
+    margin: none;
+    padding: none;
 }
 
 h2 {
