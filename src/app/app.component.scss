@@ -1,3 +1,21 @@
+:host {
+  background-color: #3e003d;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
 span {
-  margin: 0 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #dadada;
+  font-size: 6vw;
+
+  &.technology {
+    margin: 0 1vw;
+    color: #eeeeee;
+    font-weight: 600;
+    text-decoration: underline;
+  }
 }
