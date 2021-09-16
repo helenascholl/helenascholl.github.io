@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CircularArray } from './circular-array';
 
 @Component({
   selector: 'app-root',
@@ -7,22 +8,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  public technologies: string[];
+  public technologies: CircularArray<string>;
   public counter: number = 0;
 
   constructor() {
-    this.technologies = [
+    this.technologies = new CircularArray<string>([
       'HTML',
       'CSS',
       'JavaScript'
-    ];
+    ]);
 
     setInterval(() => {
-      if (this.counter === this.technologies.length - 1) {
-        this.counter = 0;
-      } else {
-        this.counter++;
-      }
+      this.counter++;
     }, 2000);
   }
 
