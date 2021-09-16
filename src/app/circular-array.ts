@@ -14,4 +14,8 @@ export class CircularArray<T> {
     return this.values[(index % this.values.length + this.values.length) % this.values.length];
   }
 
+  public get length(): number {
+    return this.values.length;
+  }
+
 }
